@@ -465,7 +465,8 @@ class Match(object):
                     fanhuanlvcha20 = str(round(float(str(fanhuanlv19).replace('%', '')) - float(str(fanhuanlv20).replace('%', '')),2)) + '%'
 
                     data.extend(['', name19, oupeisheng19,oupeisheng20, float(oupeisheng19)-float(oupeisheng20),oupeiping19,oupeiping20, oupeifu19,oupeifu20,float(oupeifu19)-float(oupeifu20), gailvsheng19,gailvsheng20,gailvshengcha20, gailvping19,gailvping20, gailvfu19,gailvfu20,gailvfucha20, fanhuanlv19,fanhuanlv20,fanhuanlvcha20, kailisheng19,kailisheng20,float(kailisheng19)-float(kailisheng20), kailiping19,kailiping20, kailifu19,kailifu20,float(kailifu19)-float(kailifu20)])
-
+                else:
+                    pass
 
                 # 存储
                 info1 = ['', '', '', '', tname2, peilv2, gailv2, beidan2, bifa2, chengjiaojia2, chengjiaoliang2, zhuangjia2, bifazhishu2, lengre2, yingkui2,]
